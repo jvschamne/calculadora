@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.fundo {
+    background-image: linear-gradient(rgb(214, 214, 214), rgb(20, 220, 153));
+    height: 100vh;
+}
+
+#calculadora {
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/*
+#teclas-operacoes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#teclas-num {
+    display: flexbox;
+    align-items: center;
+    justify-content: center;
+}
+
+#teclas-numeros {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+*/
+
+button {
+    height: 4rem;
+    width: 6rem;
+    font-size: 2rem;
+}
+
+#resultado {
+    height: 4rem;
+    width: 25rem;
+    font-size: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+    color: black solid;
+    border: black solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
